@@ -8,6 +8,21 @@ body {
     width : 100%;
     height : 50px;
     background : linear-gradient(#2C2F2F,#6B7170);
-
+    border-radius: 0px 0px 4px 4px ;
 
 } 
+#menu{
+    display: table;
+    padding: 0;
+    font-family: "Trebuchet MS";
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+ 
+}
+#menu li{
+    display: table-cell;
+    width: 180px;
+
+
+}
