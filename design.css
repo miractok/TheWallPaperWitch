@@ -3,11 +3,13 @@ body {
     padding:0;
     background: url(https://cn.opendesktop.org/img/f/c/2/7/026c18b8da5fd20734e179b3a01a83bf3962.jpg) no-repeat center fixed black;
     background-size: cover;
+    border-image: 50px inset;
 }
 #fondmenu{
     width : 100%;
     height : 50px;
     background : linear-gradient(#2C2F2F,#6B7170);
+<<<<<<< Updated upstream
     border-radius: 0px 0px 4px 4px ;
 
 } 
@@ -26,3 +28,6 @@ body {
 
 
 }
+=======
+} 
+>>>>>>> Stashed changes
