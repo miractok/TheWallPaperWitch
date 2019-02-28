@@ -3,7 +3,14 @@ body {
     padding:0;
     background: url(https://cn.opendesktop.org/img/f/c/2/7/026c18b8da5fd20734e179b3a01a83bf3962.jpg) no-repeat center fixed black;
     background-size: cover;
+    background-attachment: fixed;
     border-image: 50px inset;
+}
+#couleur{
+    color: white
+}
+#fde{
+
 }
 #fondmenu{
     width : 100%;
