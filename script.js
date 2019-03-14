@@ -1,8 +1,8 @@
-var bgImageArray = ["01.jpg", "02.jpg", "03.jpg", "04.jpg"],
+var bgImageArray = ["01.jpg", "02.jpg", "03.jpg", "04.jpg","05.jpg","06.jpg"],
 base = "img/wallpapers/",
-secs = 4;
+secs = 2;
 bgImageArray.forEach(function(img){
-    new Image().src = base + img; 
+	new Image().src = base + img; 
     // caches images, avoiding white flash between background replacements
 });
 
@@ -18,3 +18,27 @@ function backgroundSequence() {
 	}
 }
 backgroundSequence();
+
+
+function fadeImage() {
+    $('img').first().fadeOut(2000, function suivante() {
+        $(this).next('img').fadeOut(2000,suivante);
+    });
+  }
+
+
+  function fadeOutEffect() {
+    var fadeTarget = document.getElementById("target");
+    var fadeEffect = setInterval(function () {
+        if (!fadeTarget.style.opacity) {
+            fadeTarget.style.opacity = 1;
+        }
+        if (fadeTarget.style.opacity > 0) {
+            fadeTarget.style.opacity -= 0.1;
+        } else {
+            clearInterval(fadeEffect);
+        }
+    }, 200);
+}
+
+document.getElementById("target").addEventListener('click', fadeOutEffect);
