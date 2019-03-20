@@ -5,16 +5,16 @@
     margin: 0;
     background-size: cover;
     background: url("img/wallpapers/") no-repeat center center fixed;
-    background-blend-mode: darken;
+    /*background-blend-mode: darken;*/
     // blend mode optional at this stage; will be used more in the next demo.
-    transition: 3s;
+    
+    //fade
+
+    transition: .6s ease-in-out;
+   -moz-transition:  .6s ease-in-out;
+   -webkit-transition:  .6s ease-in-out;
   }
-
-  #target {
-    height: 100px;
-    background-color: red;
-}
-
+  body { margin: 0; }
 
   h1 { 
     margin-top: 0; 
@@ -25,8 +25,9 @@
      line-height: 1.6; 
     }
   }
-  @media all and (max-width: 770px)
-{}
+  @media all and (max-width: 770px) {
+      div#texttop { display: none; }
+  }
 #couleur{
     color: white
 }
