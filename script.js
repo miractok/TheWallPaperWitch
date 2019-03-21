@@ -1,10 +1,16 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 var bgImageArray = ["01.jpg", "02.jpg", "03.jpg", "04.jpg","05.jpg","06.jpg","07.jpg","10.jpg"],
 =======
 var bgImageArray = ["01.jpg", "02.jpg", "03.jpg", "04.jpg","05.jpg","06.jpg","07.jpg","08.jpg","09.jpg"],
 >>>>>>> master
+=======
+var bgImageArray = ["01.jpg", "02.jpg", "03.jpg", "04.jpg","05.jpg","06.jpg","07.jpg","08.jpg","09.jpg","10.jpg","11.jpg","12.jpg","13.jpg","14.jpg","15.jpg","16.jpg","17.jpg"],
+>>>>>>> master
 base = "img/wallpapers/",
 secs = 6;
+
+
 bgImageArray.forEach(function(img){
 	new Image().src = base + img; 
     // caches images, avoiding white flash between background replacements
