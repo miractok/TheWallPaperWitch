@@ -234,7 +234,7 @@ nav li:hover .submenu{
     background-color: RGBa(288, 77, 38, 0.15);
 }
 .menu-css:hover{
-    border-top: 5px solid #0070bb;
+    border-top: 5px solid #888;
     background-color: RGBa(000, 112, 192, 0.15);
 }
 .menu-javascript:hover{
@@ -242,7 +242,7 @@ nav li:hover .submenu{
     background-color: RGBa(241, 211, 79, 0.15);
 }
 .menu-contact:hover{
-    border-top: 5px solid #888;
+    border-top: 5px solid #0070bb;
     background-color: RGBa(220, 220, 220, 0.15);
 
 }
@@ -255,7 +255,7 @@ nav > ul > li:hover{
     background-color: RGB(230, 100, 40);
 }
 .menu-css .submenu{
-    background-color: RGB(000, 160, 240);
+    background-color: RGB(111, 110, 110);
 }
 .menu-javascript .submenu{
     background-color: RGB(250,215,100);
@@ -268,7 +268,7 @@ nav > ul > li:hover{
     background-color:  RGB(210,77,60);
 }
 .menu-css .submenu li:hover{
-    background-color: RGB(000,115,200);
+    background-color: RGB(75,75,75);
 }
 .menu-javascript .submenu li:hover{
     background-color: RGB(200,165,75);
