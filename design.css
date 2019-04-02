@@ -273,3 +273,10 @@ nav > ul > li:hover{
 .menu-javascript .submenu li:hover{
     background-color: RGB(200,165,75);
 }
+
+#image1{
+    background-image: url("img/wallpapers2/fond_couleur.jpg");
+    height: 100%;
+    background-size: cover;
+  
+}
