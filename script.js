@@ -24,4 +24,12 @@ function backgroundSequence() {
 }
 backgroundSequence();
 
-
+    //<![CDATA[
+        //Déclaration des variables
+		var source="img/wallpapers"
+		var
+        //Calculs
+        
+        //Affichage des Résultats
+        
+    //]]>
