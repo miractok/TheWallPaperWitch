@@ -274,14 +274,12 @@ nav > ul > li:hover{
     background-color: RGB(200,165,75);
 }
 
-<<<<<<< HEAD
 #image1{
     background-image: url("img/wallpapers2/fond_couleur.jpg");
     height: 100%;
     background-size: cover;
   
 }
-=======
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -299,4 +297,3 @@ nav > ul > li:hover{
   .grid-item img{
     width:200px;
   }
->>>>>>> master
