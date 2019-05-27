@@ -281,39 +281,3 @@ nav > ul > li:hover{
     background-size: cover;
   
 }
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    padding: 10px;
-  }
-  .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 10px solid rgba(1, 1, 1, 0.8);
-    font-size: 30px;
-    text-align: center;
-
-  }
-
-  .grid-item img{
-    width:100%;
-  }
-#image2{
-    background-image: url("img/wallpapers2/witcher.jpg");
-    height: 100% ;
-    background-size: cover;
-}
-#image3{
-    background-image: url("img/wallpapers2/voiture.jpg");
-    height: 100%;
-    background-size: cover;
-}
-#image4{
-    background-image: url("img/wallpapers2/loup.jpg");
-    height: 100%;
-    background-size: cover;
-}
-#image5{
-    background-image: url("img/wallpapers2/neige.jpg");
-    height: 100%;
-    background-size: cover;
-}
