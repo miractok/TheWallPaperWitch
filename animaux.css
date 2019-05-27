@@ -18,8 +18,7 @@
   }
   p { 
      line-height: 1.6; 
-    }
-  }
+}
   @media all and (max-width: 770px) {
       div#texttop { display: none; }
   }
