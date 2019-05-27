@@ -275,3 +275,23 @@ nav > ul > li:hover{
     background-size: cover;
   
 }
+#titre{
+   
+    position: absolute;
+    background-color: rgb(117, 112, 112);
+    padding: 18px;
+    font-family: Impact, fantasy;
+    font-size: 20px;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    }
+#rouge{
+    color: #FF0000;
+}
+nav > ul >li:hover a{
+    padding: 15px 30px 20px 30px;
+   
+}
