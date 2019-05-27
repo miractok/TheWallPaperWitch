@@ -1,0 +1,278 @@
+* { 
+    box-sizing: border-box; 
+  }
+  html {
+    margin: 0;
+    background-size: cover;
+    background: url("img/animaux/") no-repeat center center fixed;
+    transition: .6s ease-in-out;
+   -moz-transition:  .6s ease-in-out;
+   -webkit-transition:  .6s ease-in-out;
+  }
+  
+
+  h1 { 
+    margin-top: 0; 
+    text-align: center;
+    font-weight: 100;
+  }
+  p { 
+     line-height: 1.6; 
+    }
+  }
+  @media all and (max-width: 770px) {
+      div#texttop { display: none; }
+  }
+#couleur{
+    color: white
+}
+/*
+#fondmenu{
+    width : 100%;
+    height : 50px;
+    background : linear-gradient(#2C2F2F,#6B7170);
+    border-radius: 0px 0px 4px 4px ;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2),
+			0px 1px 0px 1px rgba(255, 255, 255, 0.5) inset,
+			0px -3px 0px 1px rgba(0, 0, 0, 0.1) inset;
+} 
+#menu{
+    display: table;
+    padding: 0;
+    font-family: "Trebuchet MS";
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+ 
+}
+#menu li{
+    display: table-cell;
+    width: 180px;
+    transition: 1s;
+
+
+}
+#menu li:hover{
+    width: 190px;
+    transition: 1s;
+}
+#menu a{
+    color: black;
+    text-decoration: none;
+    display: block;
+    line-height: 46px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(0,0,0,0,2);
+    transition: text-shadow,color  1s;
+    position: relative;
+
+
+
+
+}
+#menu a:hover{
+    color: white;
+    text-shadow: 0 1px 0 rgba(255,255,255,0,2);
+    transition: text-shadow,color 1s;
+    background: rgba(255,255,255,0.1);
+    border-bottom : 4px solid rgba(255,255,255,0.8);
+}
+#menu a::before{
+    content: '';
+    position: absolute ;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-top: 5px solid rgba(0,0,0,0.2);
+    left: 50%;
+    bottom: 5px;
+}
+#menu a:hover::before{
+    border-color: rgba(255, 255, 255, 0.5) transparent transparent;
+	box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+	transition:1s;
+
+}
+#fondmenu2{
+    width : 100%;
+    height : 50px;
+    background : linear-gradient(#2C2F2F,#6B7170);
+    border-radius: 0px 0px 4px 4px ;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2),
+			0px 1px 0px 1px rgba(255, 255, 255, 0.5) inset,
+			0px -3px 0px 1px rgba(0, 0, 0, 0.1) inset;
+} 
+#menu2{
+    display: table;
+    padding: 0;
+    font-family: "Trebuchet MS";
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+ 
+}
+#menu2 li{
+    display: table-cell;
+    width: 180px;
+    transition: 1s;
+
+
+}
+#menu2 li:hover{
+    width: 190px;
+    transition: 1s;
+}
+#menu2 a{
+    color: black;
+    text-decoration: none;
+    display: block;
+    line-height: 46px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(0,0,0,0,2);
+    transition: text-shadow,color  1s;
+    position: relative;
+
+
+
+
+}
+#menu2 a:hover{
+    color: white;
+    text-shadow: 0 1px 0 rgba(255,255,255,0,2);
+    transition: text-shadow,color 1s;
+    background: rgba(255,255,255,0.1);
+    border-bottom : 4px solid rgba(255,255,255,0.8);
+}
+#menu2 a::before{
+    content: '';
+    position: absolute ;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-top: 5px solid rgba(0,0,0,0.2);
+    left: 50%;
+    bottom: 5px;
+}
+#menu2 a:hover::before{
+    border-color: rgba(255, 255, 255, 0.5) transparent transparent;
+	box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+	transition:1s;
+
+}
+<<<<<<< Updated upstream
+*/
+.images_petit{
+    width: 300px;
+    height: 300px;
+}
+.images_petit2{
+    width: 300px;
+    height: 300px;
+}
+body{
+    font-family: 'Source code pro', Calibri, serif;
+    margin: 0px;
+    padding: 0px;
+  
+}
+nav{
+    width: 100%;
+    background-color: #424558;
+    text-align: center;
+    display: inline-block;
+}
+nav > ul{
+    margin: 0px;
+    padding: 0px;
+}
+nav > ul::after{
+    content:"";
+    display:block;
+    clear:both;
+} 
+nav > ul > li{
+    display: inline-block;
+    float: center;
+    position: relative;
+}
+nav > ul > li > a{
+    padding:20px 40px;
+    color: #FFF;
+}
+nav li{
+    list-style-type:none;
+}
+.submenu{
+    display: none;
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+}
+nav li:hover .submenu{
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    padding: 0px;
+    z-index: 1000;
+}
+.submenu li{
+    border-bottom:  1px solid #CCC;
+
+}
+.submenu li a{
+    padding: 15px 30px;
+    font-size: 13px;
+    color: #222538;
+    width: 270px;
+}
+.menu-html:hover{
+    border-top: 5px solid #e44d26;
+    background-color: RGBa(288, 77, 38, 0.15);
+}
+.menu-css:hover{
+    border-top: 5px solid #888;
+    background-color: RGBa(000, 112, 192, 0.15);
+}
+.menu-javascript:hover{
+    border-top : 5px solid #f1dc4f;
+    background-color: RGBa(241, 211, 79, 0.15);
+}
+.menu-contact:hover{
+    border-top: 5px solid #0070bb;
+    background-color: RGBa(220, 220, 220, 0.15);
+
+}
+/*
+nav > ul > li:hover{
+    padding:  15px 30px 20px 30px;
+}
+*/
+.menu-html .submenu{
+    background-color: RGB(230, 100, 40);
+}
+.menu-css .submenu{
+    background-color: RGB(111, 110, 110);
+}
+.menu-javascript .submenu{
+    background-color: RGB(250,215,100);
+}
+.submenu li:hover a{
+    color: #EEE;
+    font-weight: bold;
+}
+.menu-html .submenu li:hover{
+    background-color:  RGB(210,77,60);
+}
+.menu-css .submenu li:hover{
+    background-color: RGB(75,75,75);
+}
+.menu-javascript .submenu li:hover{
+    background-color: RGB(200,165,75);
+}
+
+#image1{
+    background-image: url("img/wallpapers2/fond_couleur.jpg");
+    height: 100%;
+    background-size: cover;
+  
+}
